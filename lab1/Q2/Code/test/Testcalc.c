@@ -5,7 +5,13 @@
 
 typedef signed char int8_t;
 
-// Question 2 Part 2: Adjust ONE of the following test suite functions to catch errors
+// Question 2 Part 2: Adjust ONE of the following test suite functions to catch errors.
+
+// This function was adjusted to output an "int8_t" variable instead of an "int" to catch
+// overflow errors with performing 8-bit arithmetic instead of 16-bit arithmetic.
+// 8-bit signed integers can only hold values from -128 to 127.
+// The test_add function will now fail because 120 + 40 = 160, which is outside the range
+// of an 8-bit signed integer.
 
 void test_add()
 {

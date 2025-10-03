@@ -1,0 +1,21 @@
+test/Testcalc.c:13:test_add:FAIL: Expected 160 Was -96
+test/Testcalc.c:143:test_sub:PASS
+test/Testcalc.c:144:test_mul:PASS
+test/Testcalc.c:145:test_mul_overflow:PASS
+test/Testcalc.c:146:test_mul_underflow:PASS
+test/Testcalc.c:147:test_div:PASS
+test/Testcalc.c:148:test_mod:PASS
+test/Testcalc.c:149:test_power_two:PASS
+test/Testcalc.c:150:test_power_two_overflow:PASS
+test/Testcalc.c:151:test_power:PASS
+test/Testcalc.c:152:test_is_greater:PASS
+test/Testcalc.c:153:test_is_equal:PASS
+test/Testcalc.c:154:test_is_smaller:PASS
+test/Testcalc.c:155:test_fill_single_digit_positive_number:PASS
+test/Testcalc.c:156:test_true_as_string:PASS
+test/Testcalc.c:157:test_false_as_string:PASS
+test/Testcalc.c:159:test_negnum:PASS
+
+-----------------------
+17 Tests 1 Failures 0 Ignored 
+FAIL
